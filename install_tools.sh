@@ -72,7 +72,7 @@ make
 sudo make install
 cd $START_PWD
 
-echo "# Installing xcircuit"
+echo "# Installing xcircuit" #This requires the cairo build 
 tar zxvf xcircuit-3.10.29.tgz
 cd xcircuit-3.10.29
 ./configure && make && sudo make install
